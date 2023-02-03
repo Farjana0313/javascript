@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Handelar</title>
+</head>
+
+<body>
+    <h1>Exploring Event</h1>
+    <button>Click Me</button>
+    <button id="second-btn">Click Me-1</button>
+    <button>Click Me-2</button>
+    <button id="lastPerson">Click Me-3</button>
+    <script>
+        function handleClick() {
+            document.body.style.backgroundColor = 'cyan';
+        }
+    document.getElementById('lastPerson').addEventListener('click',handleClick);
+        
+        // const secondBtn = document.getElementById('second-btn');
+        // secondBtn.addEventListener('click',handleClick);
+        // secondBtn.onclick = handleClick;
+    </script>
+</body>
+
+</html>
